@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- dùng google font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Roboto:wght@100&display=swap" rel="stylesheet">
+   <!-- icon fontawesome -->
+   <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Zing MP3</title>
+    <link rel="icon" href="https://static-zmp3.zadn.vn/skins/zmp3-v5.2/images/icon_zing_mp3_60.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
+</head>
+<body>
+    <div class="main">
+        <!-- Begin Sidebar -->
+        <div class="main-sidebar">
+            <!-- Begin nav -->
+            <div class="main-sidebar-nav">
+                <div class="nav-brand">
+                    <a class="nav-logo" href="#"><img src="./assets/logo/customLogo.png" alt="logo"></a>
+                </div>
+                <div class="nav-main">
+                    <ul class="nav-list">
+                        <li class="nav-item active"><a title="Cá Nhân"><i class="bi bi-collection-play"></i><span>Cá Nhân</span></a></li>
+                        <li class="nav-item"> <a title="Khám phá"><i class="bi bi-vinyl-fill"></i><span>Khám phá</span></a> </li>
+                        <li class="nav-item"><a title="#ZingChart"><i class="bi bi-pie-chart"></i><span>#ZingChart</span></a> </li>
+                        <li class="nav-item"><a title="Radio"><i class="bi bi-broadcast"></i><span>Radio</span></a> </li>
+                        <li class="nav-item"><a title="Theo dõi"><i class="bi bi-bookmark-heart"></i><span>Theo dõi</span></a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-divide"></div>
+                <div class="sub-nav">
+                    <ul class="sub-nav-list">
+                        <li class="nav-item">
+                            <a title="Nhạc mới"><i class="bi bi-music-note-beamed"></i><span>Nhạc mới</span></a></li>
+                        <li class="nav-item">
+                            <a title="Thể loại"><i class="bi bi-music-note-list"></i><span>Thể loại</span></a></li>
+                        <li class="nav-item">
+                            <a title="Top 100"><i class="bi bi-star"></i><span>Top 100</span></a></li>
+                        <li class="nav-item"><a title="MV"><i class="bi bi-play-btn"></i><span>MV</span></a></li>
+                    </ul>
+                    <div class="banner-sidebar">
+                        <div class="text">Nghe nhạc không quảng cáo cùng kho nhạc VIP</div>
+                        <a class="btn is-medium is-outlined is-upper button" tabindex="0" href="#" target="_blank"><span style="display: flex;justify-content: center;align-content: center;align-items: center;">Nâng Cấp VIP</span></a>
+                    </div>
+                    <div class="nav-sublist">
+                        <div class="main-title">Thư Viện</div>
+                        <ul class="list-menu">
+                            <li class="nav-item">
+                                <i class="icon"><img src="https://zjs.zmdcdn.me/zmp3-desktop/releases/v1.0.13/static/media/my-song.cf0cb0b4.svg" alt="img-list"></i>
+                                <a href="#">Bài hát</a>
+                            </li>
+                            <li class="nav-item">
+                                <i class="icon"><img src="https://zjs.zmdcdn.me/zmp3-desktop/releases/v1.0.13/static/media/my-playlist.7e92a5f0.svg" alt="img-list"></i>
+                                <a href="#"><span>Playlist</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <i class="icon"><img src="https://zjs.zmdcdn.me/zmp3-desktop/releases/v1.0.13/static/media/my-history.374cb625.svg" alt="img-list"></i>
+                                <a href="#"><span>Gần đây</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="add-list">
+                    <div class="add">
+                        <i class="bi bi-plus-lg"><span>Tạo playlist mới</span></i>
+                    </div>
+                </div>
+            </div>  
+        <!--End Nav  -->
+        </div>
+        <!-- Header -->
+        <header class="header is-sticky">
+            <div class="level">
+                <!-- back, forward, search-->
+                <div class="level-left">
+                    <button class="btn button" tabindex="0"><i class="bi bi-arrow-left"></i></button>
+                    <button class="btn button" tabindex="0"><i class="bi bi-arrow-right"></i></button>
+                    <form action="" class="search">
+                        <div class="search-nav">
+                            <button class="btn button" tabindex="0"><i class="bi bi-search"></i></button>
+                            <input type="text" class="form-control" placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV…" >
+                        </div>
+                    </form>
+                </div>
+                <!-- theme, vip, upload, setting, avatar -->
+                <div class="level-right">
+                    <div class="theme-item"><i class="bi bi-slack"></i> </div>
+                    <a href="#" class="vip-item"><i class="bi bi-gem"></i></a>
+                    <div class="upload-item"><i class="bi bi-upload"></i></div>
+                    <div class="setting-item"><i class="bi bi-gear"></i></div>
+                    <div class="avatar-item">
+                        <img class = "img-user" src="https://s120-ava-talk-zmp3.zmdcdn.me/f/a/5/2/4/120/e2d79992f7e2a3e9caa284115a248402.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main phần cá nhân -->
+        <div class="my-music">
+                <div class="my-music-header">
+                    <div class="text">Thư Viện</div>
+                    <button class="btn button" tabindex="0"><i class="bi bi-play-fill"></i></button>
+                </div>
+                <!-- Phần nghệ sĩ -->
+                <div class="my-music-artist">
+                        <div class="list-artist">
+                            <div class="artist-infor">
+                                <div class="artist-img">
+                                    <a href="#" class title="JustaTee">
+                                        <img src="https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_webp/avatars/3/a/6/d/3a6de9f068f10fcee2c50cdf9772ebaa.jpg" alt="">
+                                    </a>
+                                    <div><button class="btn button" tabindex="0"><i class="bi bi-shuffle"></i></button></div>
+                                </div>
+                                <div class="artist-content">
+                                    <a href="#"><span>JustaTee</span></a>
+                                </div>
+                            </div>
+                            <div class="artist-infor">
+                                <div class="artist-img">
+                                    <a href="#" class title="Phan Mạch Quỳnh">
+                                        <img src="https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_webp/avatars/0/2/9/a/029a1e473c230215ee5d272eb89cd571.jpg" alt="">
+                                    </a>
+                                    <div class="btn-shuffle"><button class="btn button" tabindex="0"><i class="bi bi-shuffle"></i></button></div>
+                                </div>
+                                <div class="artist-content">
+                                    <a href="#"><span>Phan Mạch Quỳnh</span></a>
+                                </div>
+                            </div>
+                            <div class="artist-infor">
+                                <div class="artist-img">
+                                    <div class="img"> <a href="#" class title="Mr.Siro">
+                                        <img src="https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_webp/avatars/2/1/3/0/2130334d4358f2727fbd721274791421.jpg" alt="">
+                                    </a></div>
+                                    <div>
+                                    <button class="btn button" tabindex="0"><i class="bi bi-shuffle"></i></button></div>
+                                </div>
+                                <div class="artist-content">
+                                    <a href="#"><span>Mr.Siro</span></a>
+                                </div>
+                            </div>
+                            <div class="artist-more" style="padding: 0 12px;">
+                                <a href="#">
+                                    <div class="more-img">
+                                        <button class="btn button" tabindex="0"><i class="bi bi-three-dots"></i></button>
+                                    </div>
+                                    <div class="more-content">Xem tất cả</div>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+                <!-- Phần playlist yêu thích -->
+                <div class="my-playlist">
+                    <h3 class="playlist-title">
+                        <div>PLAYLIST
+                            <button class="btn button"><i class="bi bi-plus-lg"></i></button>
+                        </div>
+                        <a href="#" class="all-btn">Tất cả  <i class="bi bi-chevron-right"></i></a>
+                    </h3>
+                    <div class="list-playlist">
+                        <div class="playlist-infor">
+                            <div class="playlist-card">
+                                <a href="#" class title="Nhạc Acoustic Âu Mỹ Hay Nhất">
+                                    <div class="card-img">
+                                        <div class="playlist-action">
+                                            <button class="btn heart button"><i class="bi bi-heart-fill" style="font-size:20px; color:#7200a1 !important ;"></i></button>
+                                            <button class="btn play button"><i class="bi bi-play-circle"></i></button>
+                                            <button class="btn three button"><i class="bi bi-three-dots"style="font-size:20px;"></i></button>
+                                        </div>
+                                        <div class="img-playlist"><img src="https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/6/4/7/6/6476a5462bc6131cb18af7aa321acbed.jpg" alt=""></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="playlist-content">
+                                <h4 class="title singer">
+                                    <a href="#" class title="Nhạc Acoustic Âu Mỹ Hay Nhất"><span>Nhạc Acoustic Âu Mỹ Hay</span></a>
+                                </h4>
+                                <h3 class="subtitle">Zing MP3</h3>
+                            </div>
+                        </div>
+                        <div class="playlist-infor">
+                            <div class="playlist-card">
+                                <a href="#" class title="Góc của Phan Mạch Quỳnh">
+                                    <div class="card-img">
+                                        <div class="playlist-action">
+                                            <button class="btn heart button"><i class="bi bi-heart-fill"style="font-size:20px; color:#7200a1 !important ;"></i></button>
+                                            <button class="btn play button"><i class="bi bi-play-circle"></i></button>
+                                            <button class="btn three button"><i class="bi bi-three-dots"style="font-size:20px;"></i></button>
+                                        </div>
+                                        <div class="img-playlist"> <img src="https://photo-playlist-zmp3.zmdcdn.me/v2/mixartist?src=HavwqN7EzbiAH2wA9yxoIL54Syadpl99KKHic3YVeHm55MtFQicdHmOREPLkoQ4T0qPippd9f4fM362AQCNY64LBDDm-chWy3n1uh1iQRBqicU9S09FtNpSGUv8&cv=1&size=thumb/240_240" alt=""></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="playlist-content">
+                                <h4 class="title singer">
+                                    <a href="#" class title="Góc của Phan Mạch Quỳnh"><span>Góc của Phan Mạch Quỳnh</span></a>
+                                </h4>
+                                <h3 class="subtitle">Zing MP3</h3>
+                            </div>
+                        </div>
+                        <div class="playlist-infor">
+                            <div class="playlist-card">
+                                <a href="#" class title="Bụi Đời Rap Việt">
+                                    <div class="card-img">
+                                        <div class="playlist-action">
+                                            <button class="btn heart button"><i class="bi bi-heart-fill"style="font-size:20px; color:#7200a1 !important ;"></i></button>
+                                            <button class="btn play button"><i class="bi bi-play-circle"></i></button>
+                                            <button class="btn three button"><i class="bi bi-three-dots"style="font-size:20px;"></i></button>
+                                        </div>
+                                        <div class="img-playlist"><img src="https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/5/a/9/2/5a92e140c4d9eb69204e69f66d4e7066.jpg" alt=""></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="playlist-content">
+                                <h4 class="title singer">
+                                    <a href="#" class title="Bụi Đời Rap Việt"><span>Bụi Đời Rap Việt</span></a>
+                                </h4>
+                                <h3 class="subtitle">Zing MP3</h3>
+                            </div>
+                        </div>
+                        <div class="playlist-infor">
+                            <div class="playlist-card">
+                                <a href="#" class title="Nhạc của Last First">
+                                    <div class="card-img">
+                                        <div class="playlist-action">
+                                            <button class="btn heart button"><i class="bi bi-heart-fill"style="font-size:20px; color:#7200a1 !important ;"></i></button>
+                                            <button class="btn play button"><i class="bi bi-play-circle"></i></button>
+                                            <button class="btn three button"><i class="bi bi-three-dots"style="font-size:20px;"></i></button>
+                                        </div>
+                                        <div class="img-playlist"><img src="https://photo-playlist-zmp3.zmdcdn.me/s3/user-playlist?src=HavwqN7EvKCI1og5AfZbHm1SBjXfcELOKKfuZJ75i0q96IQCDfIu15uR9u0snEjK2KactM6RrrmCI4_OPfRINmbJ5fytcfGD0XXKrc_Hm4HLLHYHVisP5mWI695bczSN3498bcRFr1CEHqwQRyZJJWH26CyvdT1614T9gMoPrIa7G4kiRfhBTaSMH-eyaO0q3aaCldN1pNX9M13d89pRU4aI5FyWoubzJKP3gIQRYI0U5aIaTClR8neMGFOcpDn-81P6zqt5sNui64_W1Ps6Sd1KHAj7rDWv91qN_no2s3qsHX2YM8BO9MS84wPSrDabOLf3zmo1YtHi3qQX1j7OA6fOHFjNWhLwEbuf_5ADiNGpI7MqPo9z&size=thumb/240_240" alt=""></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="playlist-content">
+                                <h4 class="title singer">
+                                    <a href="#" class title="Nhạc của Last First"><span>Nhạc của Last First</span></a>
+                                </h4>
+                                <h3 class="subtitle">Zing MP3</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Phần mục yêu thích -->
+                <div class="my-fav">
+                    <div class="header-fav">
+                        <ul class="menu-fav">
+                            <li class="item-fav active"><div class="nav-link"><a href="#">BÀI HÁT</a></div></li>
+                            <li class="item-fav"><div class="nav-link"><a href="#">PODCAST</a></div></li>
+                            <li class="item-fav"><div class="nav-link"><a href="#">ALBUM</a></div></li>
+                            <li class="item-fav"><div class="nav-link"><a href="#">MV</a></div></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="btn-fav">
+                            <a href="#" class="item active">Yêu thích</a>
+                            <a href="#" class="item" style="margin-left: 16px;">Đã tải lên</a>
+                        </div>
+                    </div>
+                    <div class="list-song">
+                        <div class="header-list-song">
+                            <div class="ls-left"><div class="text">Bài hát</div></div>
+                            <div class="ls-content"><div class="text">Album</div></div>
+                            <div class="ls-right"><div class="text">Thời gian</div></div>
+                        </div>
+                        <div class="list-items">
+                        </div>
+                </div>
+            </div>
+        </div>
+            <!-- Phần chạy nhạc -->
+            <div class="player-control">
+                <div class="level level-control">
+                    <div class="level-control-left level-left">
+                        <div class="level-item item-left">
+                            <div class="list-item">
+                                <div class="ls-left">
+                                    <a href="#"><div class="thumbnail"><figure class="img"><img src="https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_webp/cover/2/d/b/9/2db9a78a4bb650f5f79a094d6a142bf6.jpg" alt=""></figure></div></a>
+                                </div>
+                                <div class="ls-content">
+                                    <div class="name level-left">
+                                        <div class="song-infor">
+                                            <span class="song-title-item">
+                                                <a href="#">
+                                                    <div class="title">
+                                                        <span class="title-span">Dù Cho Mai Về Sau (Acoustic Version)</span>
+                                                    </div>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <h3 class="subtitle"><a href="#">buitruonglinh</a></h3>
+                                </div>
+                                <div class="ls-right">
+                                    <div class="level">
+                                        <div class="level-item">
+                                            <button class="btn button"><i class="bi bi-heart"></i><i class="bi bi-three-dots dots"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="level-control-bar level-center">
+                        <div class="level-item">
+                            <div class="action">
+                                <button class="btn btn-shuffle"><i class="bi bi-shuffle"></i></button>
+                                <button class="btn btn-pre"><i class="bi bi-skip-start"></i></button>
+                                <button class="btn btn-play">
+                                    <i class="bi bi-play-circle"></i>
+                                    <i class="bi bi-pause-circle"></i>
+                                </button>
+                                <button class="btn btn-next"><i class="bi bi-skip-end"></i></button>
+                                <button class="btn btn-repeat"><i class="bi bi-arrow-repeat"></i></button>
+                            </div>
+                        </div>
+                        <div class="level-item timeline">
+                            <div class="time-left"><span class="time-left"></span></div>
+                            <input type="range" name="range" id="range" min="1" max="100" value="0" step="1">
+                            <audio id="audio" src=""></audio>
+                            <div class="time-right"> <span class="time-right"></span></div>
+                        </div>
+                    </div>
+                    <div class="level-control-right level-right">
+                        <div class="level-item">
+                            <button class="btn button" tabindex="0"><i class="bi bi-mic-fill"></i></button>
+                        </div>
+                        <div class="level-item">
+                            <button class="btn button" tabindex="0"><i class="bi bi-aspect-ratio"></i></button>
+                        </div>
+                        <div class="level-item">
+                            <button class="btn button"><i class="bi bi-volume-up-fill"></i></button>
+                        </div>
+                        <div class="level-item">
+                            <input class="volume" type="range" name="range" id="range" min="0" max="1" value="1" step="0.1">
+                        </div>
+                        <div class="level-item">
+                            <span class="devide"></span>
+                        </div>
+                        <div class="level-item">
+                            <button class="btn button" tabindex="0"><i class="bi bi-music-note-list"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

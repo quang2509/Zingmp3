@@ -1,0 +1,12 @@
+:root {
+    --primary-bg: #432275;
+    --layout-bg: #170f23;
+    --sidebar-popup-bg: #2a213a;
+    --alpha-layout-bg: rgba(41,21,71,0.8);
+    --queue-player-popup-bg: #120822;
+    --blur-queue-bg: rgba(30,21,47,0.9019607843137255);
+    --purple-primary: #7200a1;
+    --link-text-hover: #c662ef;
+    --chart-bg-img-alpha: rgba(32,19,53,0.9);
+    --text-primary: #fff;
+}
